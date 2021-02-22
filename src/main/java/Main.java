@@ -32,7 +32,7 @@ public class Main {
                 try {
                     if (InetAddress.getByName(Constants.robPhoneIP).isReachable(2500)) {
                         if (!phoneHere)
-                            automatedTelnetClient.write("#DEVICE,29,2,3<CR><LF>");
+                            //automatedTelnetClient.write("#DEVICE,29,2,3<CR><LF>");
 
                         System.out.println("Phones Here");
                         phoneHere = true;
@@ -48,7 +48,7 @@ public class Main {
             if (cantFind) {
                 //If phone isn't able to be reached
                 if (phoneHere)
-                    automatedTelnetClient.write("#DEVICE,28,6,3<CR><LF>");
+                    //automatedTelnetClient.write("#DEVICE,28,6,3<CR><LF>");
 
                 System.out.println("No phones are here");
                 phoneHere = false;

@@ -4,9 +4,9 @@
 public class Constants {
 
 
-    public static String robPhoneIP = "10.0.0.70";
+    public static String robPhoneIP = "192.168.0.193";
     public static String mikesPhoneIP = null;
-    public static String lutronMainRepeaterIP = "10.0.0.230";
+    public static String lutronMainRepeaterIP = "192.168.0.184";
     public static String lutronMainRepeaterUser = "lutron";
     public static String lutronMainRepeaterPassword = "integration";
 
